@@ -5,6 +5,8 @@ public class MovieCatalogItem {
 	private String desc;
 	private int ratings;
 	
+	public MovieCatalogItem(){}
+	
 	public MovieCatalogItem(String name, String desc, int ratings) {
 		super();
 		this.name = name;
